@@ -1,2 +1,2 @@
 #!/bin/sh
-echo $@ | xargs readlink | tee /dev/stderr | xargs mpv --shuffle --no-video
+echo $@ | xargs readlink | xargs mpv --no-video
