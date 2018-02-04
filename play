@@ -1,2 +1,2 @@
 #!/bin/sh
-echo $@ | xargs readlink | xargs -n 1 youtube-dl -g -f bestaudio/best | xargs -n 1 ffplay -autoexit
+echo $@ | xargs readlink | xargs -n 1 youtube-dl -g -f bestaudio/best | xargs -n 1 ffplay -autoexit -vn
