@@ -1,0 +1,2 @@
+#!/bin/sh
+echo $@ | xargs readlink | xargs youtube-dl -g -f bestaudio/best | mpc add
